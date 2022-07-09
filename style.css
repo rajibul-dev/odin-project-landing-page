@@ -1,0 +1,268 @@
+/*-----------------------*/
+/* General */
+/*-----------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  transition: all ease 0.2s;
+}
+
+/*-----------------------*/
+/* Hero section */
+/*-----------------------*/
+
+.hero-section {
+  color: #fff;
+  background-color: #1f2937;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-bottom: 9.6rem;
+}
+
+.logo {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.nav-a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+  font-weight: 300;
+  opacity: 80%;
+  list-style: none;
+  gap: 2rem;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: #f9faf8;
+  margin-bottom: 1.6rem;
+}
+
+.hero-p {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  margin-bottom: 2.2rem;
+  line-height: 1.4;
+}
+
+.hero-btn {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #f9faf8;
+  background-color: #2a6edc;
+  display: inline-block;
+  margin-right: auto;
+
+  padding: 1.2rem 2.8rem;
+  border-radius: 9px;
+}
+
+.hero-btn:hover {
+  background-color: #3882f6;
+}
+
+.hero-img {
+  width: 47%; /*temp*/
+}
+
+/*-----------------------*/
+/* Features section */
+/*-----------------------*/
+
+.features-section {
+  padding: 8rem 0 9.6rem 0;
+}
+
+.features-container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.feature-heading {
+  color: #1f2937;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.icon-box {
+  width: 16rem;
+  height: 16rem;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+
+.icon {
+  font-size: 8rem;
+  color: #fff;
+}
+
+.feature-p {
+  width: 16rem;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: rgb(46, 51, 66);
+  text-align: center;
+}
+
+/*-----------------------*/
+/* Quote section */
+/*-----------------------*/
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 9.6rem 0;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 80rem;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.quote {
+  font-size: 3.6rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.legend {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: end;
+  margin-right: 3rem;
+}
+
+/*-----------------------*/
+/* CTA section */
+/*-----------------------*/
+
+.cta-section {
+  padding: 9.6rem;
+  color: #fff;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4rem 8rem;
+  max-width: 94rem;
+  margin: 0 auto;
+  background-color: #3882f6;
+}
+
+.cta-heading {
+  font-size: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.cta-p {
+  font-size: 1.6rem;
+  opacity: 70%;
+}
+
+.cta-btn {
+  font-size: 2.4rem;
+  color: #e5e7eb;
+  padding: 1rem 2.6rem;
+  background-color: transparent;
+  border: 2px solid #e5e7eb;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.cta-btn:hover {
+  background-color: #70a2f3;
+}
+
+/*-----------------------*/
+/* Footer */
+/*-----------------------*/
+
+.footer {
+  padding: 3.2rem;
+  background-color: #1f2937;
+}
+
+.footer-container {
+}
+
+.footer-p {
+  font-size: 1.6rem;
+  color: #e5e7eb;
+  opacity: 70%;
+  text-align: center;
+}
